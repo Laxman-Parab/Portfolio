@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laxman Parab</title>
+    <link rel="icon" type="image/x-icon" href="Image/me.png" />
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="Propeller/CSS/pro.css">
+</head>
+
+<body style="background-color:#33475b">  
+    <style>        
+        @font-face {
+            font-family: 'Moon';
+            src: url(../Portfolio/Font/MoonBold.ttf);
+        }
+        
+        @font-face {
+            font-family: 'GoogleSans';
+            src: url(../Portfolio/Font/GoogleSansRegular.ttf);
+        }
+        /* Popover Header */
+        .popover-title {
+            background-color: #73AD21;
+            color: #FFFFFF;
+            font-size: 28px;
+            text-align: center;
+        }
+        .container {
+            position: relative;
+            /*overflow: hidden;*/
+            width: 100%;
+            padding-top: 56.25%; /*16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+            clear:both;
+        }       
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 900px;
+            clear:both;
+        }
+    </style>
+    <div class="container-fluid" style="font-family: 'Moon'">
+        <div class="card" style="width:100%">
+            <!-- Header -->
+            <div class="card-header shadow-sm fixed-top" style = "background-color:#FFFFFF">
+                <div class="row">
+                    <div class="col-2" style="padding-left: 5px">
+                        <a data-toggle="modal" data-target="#AboutMe">
+                            <img role="button" src="Image/WixDP.jpeg" class="card-img-top" style="height: 45px; width: 45px; border:grey 2px solid; border-radius: 100px" data-toggle="popover" data-placement="right" data-html="true" data-content="<b>About Me</b>">
+                        </a>    
+                    </div>
+
+                    <!-- Social Profile Links -->
+                    <div class="col-10" style="text-align: right; padding-top: 8px; padding-right: 5px;">
+                        <a href="https://github.com/Laxman-Parab" target="_blank">
+                            <img src="Image/Icon/Github.png" height=28 data-toggle="popover" data-html="true" title="GitHub" data-content="Laxman-Parab" data-placement="bottom">
+                        </a>&nbsp;
+                        <a href="https://www.linkedin.com/in/laxmanparab25/" target="_blank">
+                            <img src="Image/Icon/LinkedIn.png" height=32 data-toggle="popover" data-html="true" title="LinkedIN" data-content="Laxman Parab" data-placement="bottom">
+                        </a>&nbsp;                        
+                        <a href="https://laxmanparab7.wixsite.com/laksh"> 
+                            <img src="Image/wix.png" height=36 data-toggle="popover" data-html="true" title="Blog" data-content="laxmanparab7" data-placement="bottom">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Body -->
+            <div class="card-body text-center" style="align-items: center; margin-top: 70px; margin-bottom : 50px">
+                <h3 class="card-title" style="font-size: 45px; font-family:'Moon'"><strong>DATA ANALYTICS</strong></h3>
+
+                <!-- Image -->
+                <div class="card m-5" style="border: none">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="Image/Icon/SEO.svg" style="width: 70%; height: auto">
+                        </div>
+                        <div class="col-4">
+                            <img src="Image/BI.jpg" style="width: 80%; height: auto">
+                        </div>
+                        <div class="col-4">
+                            <img src="Image/Analytics.png" style="width: 70%; height: auto">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Environment -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row" style="justify-content: center;">
+                            <div class="card m-2 shadow-sm" style="width: fit-content; border-radius: 15px">
+                                <h1 class="m-3">
+                                    <img src="Image/Icon/Terminal.png" height="32px" alt="Terminal">
+                                    <strong style="font-size: xx-large; font-family:'Moon'; vertical-align: middle">ENVIRONMENT</strong>                                   
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row" style="justify-content: center; height: fit-content">                                                                                                                            
+                            <div class="card mt-4" style="width: 10rem; border:none">
+                                <a href="https://www.anaconda.com/" target="_blank">
+                                    <img src="Image/Icon/AnacondaBanner.png" class="card-img-top mt-3" alt="Anaconda" style="width: 100%; align-self: center" data-toggle="popover" data-placement="Top" data-html="true" data-content="Ana<strong>conda</strong>">
+                                </a>
+                            </div>
+                            <div class="card mt-4" style="width: 10rem; border:none">
+                                <a href="https://jupyter.org/try" target="_blank">
+                                    <img src="Image/JupyterIcon.jpeg" class="card-img-top mt-3" alt="Jupyter Notebook" style="width: 55%; align-self: center" data-toggle="popover" data-placement="Top" data-html="true" data-content="Jupyter Notebook">
+                                </a>
+                            </div>
+                            <div class="card mt-4" style="width: 10rem; border:none">
+                                <a href="https://code.visualstudio.com/" target="_blank">
+                                    <img src="Image/Icon/VSC.svg" class="card-img-top mt-3" alt="Visual Studio Code" style="width: 50%; align-self: center" data-toggle="popover" data-html="true" data-placement="Top" data-content="Visual Studio <strong>Code</strong>">
+                                </a>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+                <br>
+                
+                <!-- Packages -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row" style="justify-content: center">
+                            <div class="card m-2 shadow-sm" style="width: fit-content; border-radius: 15px">
+                                <h3 class="m-3">
+                                    <img src="Image/Icon/Package.png" height="32px">                                    
+                                    <strong style="font-size: xx-large; font-family:'Moon'; vertical-align: middle">LIBRARIES</strong>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row" style="justify-content: center; height: fit-content">
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://pandas.pydata.org/" target="_blank">
+                                        <img src="Image/Icon/Pandas.svg" alt="Pandas" class="card-img-top mt-1" style="width: 95%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Pandas">
+                                    </a>                                    
+                                </div>
+                            </div>
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://numpy.org/" target="_blank">
+                                        <img src="Image/Icon/NumPy.svg" alt="NumPy" class="card-img-top mb-3" style="width: 90%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Numpy">
+                                    </a>                                    
+                                </div>
+                            </div>
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://scikit-learn.org/stable/index.html" target="_blank">
+                                        <img src="Image/Icon/ScikitLearn.svg" alt="Scikit Learn" class="card-img-top mt-2" style="width: 45%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Scikit Learn">
+                                    </a>                                    
+                                </div>
+                            </div>             
+                        </div>
+                        <div class="row" style="justify-content: center">
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://matplotlib.org/" target="_blank">
+                                        <img src="Image/Icon/Matplotlib.svg" alt="Matplotlib" class="card-img-top mt-2" style="width: 95%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Matplotlib">
+                                    </a>                                    
+                                </div>
+                            </div>
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://seaborn.pydata.org/" target="_blank">
+                                        <img src="Image/Icon/Seaborn.svg" alt="Seaborn" class="card-img-top" style="width: 85%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Seaborn">
+                                    </a>                                  
+                                </div>
+                            </div>             
+                             <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://plotly.com/python/" target="_blank">
+                                        <img src="Image/Icon/Plotly.svg" alt="Plotly" class="card-img-top" style="width: 80%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Plotly">
+                                    </a>                                  
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                <br>
+                
+
+                <!-- Data Visualization and Databases -->
+                <div class="row">
+                    <!-- Data Visualization -->
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="row" style="justify-content: center">
+                            <div class="card m-2 shadow-sm" style="width: fit-content; border-radius: 15px">
+                                <h3 class="m-3">
+                                    <img src="Image/Icon/Doughnut Chart.png" height="32px">
+                                    <strong style="font-size: xx-large; font-family:'Moon'; vertical-align: middle">BI TOOLS</strong>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row" style="justify-content: center; height: fit-content">
+                            <div class="card mt-4" style="width: 8rem; border: none">
+                                <div class="card-body">
+                                    <a href="https://powerbi.microsoft.com/en-us/" target="_blank">
+                                        <img src="Image/Icon/PowerBI.svg" class="card-img-top" style="width: 60%; align-self: center;" alt="Power BI" data-toggle="popover" data-placement="Top" data-content="Power BI">
+                                    </a>                                   
+                                </div>
+                            </div>
+                            <div class="card mt-4" style="width: 8rem; border: none">
+                                <div class="card-body">
+                                    <a href="https://www.tableau.com/" target="_blank">
+                                        <img src="Image/Icon/Tableau.svg" class="card-img-top" style="width: 60%; align-self: center" alt="Tableau" data-toggle="popover" data-placement="Top" data-content="Tableau">
+                                    </a>                                    
+                                </div>                                
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="row" style="justify-content: center;">
+                            <div class="card m-2 shadow-sm" style="width: fit-content; border-radius: 15px">
+                                <h3 class="m-3">
+                                    <img src="Image/Icon/Data Base.png" height="32px">
+                                    <strong style="font-size: xx-large; font-family: 'Moon'; vertical-align: middle">DATABASES</strong>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row" style="justify-content: center; height: fit-content">
+                            <div class="card mt-4" style="width: 8rem; border: none">
+                                <a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15" target="_blank" style="margin-top: 10px;">
+                                    <img src="Image/mssql.png" alt="Databases" class="card-img-top mt-3" style="width: 60%; align-self: center" data-toggle="popover" data-placement="Top" data-content="Ms-Sql">
+                                </a>                                
+                            </div>
+                            <div class="card mt-4" style="width: 8rem; border: none">
+                                <a href="https://www.mysql.com/" target="_blank" style="margin-top: 10px;">
+                                    <img src="Image/mysql.png" alt="Databases" class="card-img-top mt-3" style="width: 60%; align-self: center" data-toggle="popover" data-placement="Top" data-content="Ms-Sql">
+                                </a>                                
+                            </div>
+                                                    
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <!-- Projects -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row" style="justify-content: center">
+                            <div class="card m-2 shadow-sm" style="width: fit-content; border-radius: 15px">
+                                <h3 class="m-3">
+                                    <img src="Image/Project.png" height="32px">                                    
+                                    <strong style="font-size: xx-large; font-family:'Moon'; vertical-align: middle">PROJECTS</strong>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row" style="justify-content: center; height: fit-content">
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://github.com/Laxman-Parab/Youtube_Analysis_Using_Python" target="_blank">
+                                        <img src="Image/youtube.jpg" alt="Analysis" class="card-img-top mt-1" style="width: 80%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Youtube Analysis Using Python">
+                                    </a>                                    
+                                </div>
+                            </div>
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://github.com/Laxman-Parab/Sales_Analysis_Using_Python" target="_blank">
+                                        <img src="Image/sales.jpg" alt="Analysis" class="card-img-top mb-3" style="width: 90%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Sales Analysis Using Python">
+                                    </a>                                    
+                                </div>
+                            </div>
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://github.com/Laxman-Parab/Uber_Analysis_Using_Python" target="_blank">
+                                        <img src="Image/uber.jpg" alt="Analysis" class="card-img-top mt-2" style="width: 90%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Uber Analysis Using Python">
+                                    </a>                                    
+                                </div>
+                            </div>             
+                        </div>
+                        <div class="row" style="justify-content: center">
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://github.com/Laxman-Parab/Hotel_Booking_Analysis_Using_Python" target="_blank">
+                                        <img src="Image/hotel.jpg" alt="Analysis" class="card-img-top mt-2" style="width: 85%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Hotel Booking Analysis Using Python">
+                                    </a>                                    
+                                </div>
+                            </div>
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://github.com/Laxman-Parab/Covid_Analysis_Using_Sql" target="_blank">
+                                        <img src="Image/covid.jpg" alt="Analysis" class="card-img-top" style="width: 95%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Covid Analysis Using Ms-SQL ">
+                                    </a>                     
+                                </div>
+                            </div>
+                            <div class="card mt-4" style="width: 15rem; border:none">
+                                <div class="card-body">
+                                    <a href="https://github.com/Laxman-Parab/Covid_Vaccination_Analysis_Using_PowerBI" target="_blank">
+                                        <img src="Image/vaccine.jpg" alt="Analysis" class="card-img-top" style="width: 95%; align-self: center; vertical-align: middle" data-toggle="popover" data-placement="Top" data-content="Vaccination Analysis Using Power Bi ">
+                                    </a>       
+                                </div>
+                            </div>
+                        </div>
+                <!-- About Me Modal -->
+    <div class="modal" id="AboutMe" tabindex="-1" role="dialog" aria-labelledby="Title" aria-hidden="true" style="font-family: 'Moon'">
+        <div class="modal-dialog modal-dialog-centered" role="document" style="width: fit-content">      
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center col" id="Title"><strong style="font-size: larger">About Me</strong></h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="border: none">
+                                <img src="Image/WixDP.jpeg" class="card-img-top" style="width: 24%; align-self: center">
+                                    <br>
+                                    <h5 style="align-self: center"><strong style="font-size: large">Laxman Parab</strong></h5>
+                                <div class="list-group" style="padding-top: 15px">                                    
+                                    <a class="list-group-item list-group-item-action">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">
+                                                <img src="Image/Icon/Cake.png" height=40px>&nbsp;&nbsp;&nbsp;<strong style="font-size:large">25<sup>th</sup> December 1999</strong>
+                                            </h5>
+                                        </div>
+                                    </a>
+                                    <a class="list-group-item list-group-item-action" data-toggle="collapse" href="#CollapseEducation">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">
+                                                <img src="Image/Icon/Certificate.png" height=40px>&nbsp;&nbsp;&nbsp;<strong style="font-size:large">Education</strong>
+                                            </h5>
+                                        </div>
+                                    </a>
+                                    <div class="collapse" id="CollapseEducation">
+                                        <div class="card card-body">
+                                            <h6>M.Sc. Statistics : 2020-2022 </h6>
+                                            <h6>B.Sc. Statistics : 2017-2020 </h6>
+                                        </div>
+                                    </div>                                                           
+                                    <a href="Propeller/Laxman_Parab_Resume.pdf" target="_blank" class="list-group-item list-group-item-action">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">
+                                                <img src="Image/Icon/Resume.png" height=40px>&nbsp;&nbsp;&nbsp;<strong style="font-size:large">My Resume (PDF)</strong>
+                                            </h5>
+                                        </div>
+                                    </a>                                                                                                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                             
+
+                
+
+                
+            <!-- Footer -->
+            <div class="text-white card-footer-copyright fixed-bottom" style="background-color: #000000; text-align: center">
+                <div class="text-left text-md-center">
+                    <div class="row" style='padding-top:11px'>
+                        <div class="col-md-12 col-sm-12 col-lg-4" style="text-align: center">
+                            <a href="" style="color: white; text-decoration: none">
+                                <h2 style="font-family:'Moon'"><strong></strong></h2>
+                            </a>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4" style="text-align: center">
+                            <h2 style="font-family:'Moon'"><a href="" style="color: white; text-decoration: none"><strong>Laxman Parab © 2021.</strong></a></h2>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4" style="text-align: center">
+                            <a href="" style="color: white; text-decoration: none">
+                                <h2 style="font-family:'Moon'"><strong></strong></h2>
+                            </a>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <a id="back-to-top" href="#" style="border-radius: 100%; z-index: 9999" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+        </div>
+    </div>
+
+    <!-- JQuery should be on Top -->
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+
+    <!-- Propeller Global js -->
+    <script src="Propeller/JS/global.js"></script>
+
+    <!-- Propeller accordion js -->
+    <script type="text/javascript" src="Propeller/JS/accordion.js" crossorigin="anonymous"></script>
+
+    <script>
+        // Popup on Hover
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                trigger: 'hover'
+            });
+        });
+
+        // Scroll Back to Top
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // Scroll Body to 0px on Click
+            $('#back-to-top').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 400);
+                return false;
+            });
+        });   
+    </script>
+
+</body>
+
+</html>
