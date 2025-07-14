@@ -4,6 +4,6 @@
 
 <center>
 
-Laxman Parab | [My Portfolio Website](https://laxmanparab.codes/)
+Laxman Parab | [My Portfolio Website](https://laxman-parab.github.io/Portfolio)
 
 </center>
